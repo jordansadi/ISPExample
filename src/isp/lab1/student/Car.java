@@ -95,7 +95,7 @@ public class Car implements Vehicle {
     }
 
     @Override
-    public void stopByBreaking() {
+    public void stopByBraking() {
         if (started) {
             speed=0;
         }
